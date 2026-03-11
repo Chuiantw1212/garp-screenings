@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.oingg</groupId>
-	<artifactId>demo</artifactId>
+	<artifactId>screening-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Screening Service</name>
 	<description>Screening Service</description>
