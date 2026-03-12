@@ -4,6 +4,7 @@ import java.math.BigDecimal;
 
 /**
  * A complete view for PEGY analysis, combining data from multiple sources.
+ * This is the final DTO sent to the client.
  *
  * @param symbol The stock symbol.
  * @param lastPrice The latest trading price.
@@ -13,7 +14,7 @@ import java.math.BigDecimal;
  * @param growthEstimate Consensus growth estimate for the next 3-5 years (G).
  * @param pegyRatio The calculated PEGY ratio (P/E / (G + D)).
  */
-public record PegyView(
+public record PegyViewOutDTO( // <-- Renamed
     String symbol,
     BigDecimal lastPrice,
     BigDecimal change,
